@@ -1,6 +1,6 @@
 galaxy_info:
   author: Paul Aiton
-  description: role for the deployment of cloudmra.
+  description: Role for the deployment of cloudmra.
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
@@ -13,7 +13,7 @@ galaxy_info:
   # - GPL-3.0-only
   # - Apache-2.0
   # - CC-BY-4.0
-  license: 
+  license:
     - GPL-3.0-only
 
   min_ansible_version: 2.4
@@ -31,6 +31,8 @@ galaxy_info:
   - name: Fedora
     versions:
     - 30
+    - 31
+    - 32
   #   - 25
   # - name: SomePlatform
   #   versions:
@@ -50,4 +52,4 @@ galaxy_info:
 dependencies: []
   # List your role dependencies here, one per line. Be sure to remove the '[]' above,
   # if you add dependencies to this list.
-  
+
